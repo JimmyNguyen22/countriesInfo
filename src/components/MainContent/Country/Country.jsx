@@ -1,5 +1,11 @@
 import React from "react";
+import "./country.scss";
+import CountryCard from "./CountryCard";
 
 export default function Country() {
-  return <div>Country</div>;
+  return (
+    <div className="countryContainer">
+      <CountryCard></CountryCard>
+    </div>
+  );
 }
