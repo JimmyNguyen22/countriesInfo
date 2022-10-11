@@ -1,0 +1,50 @@
+@import "../../../App.scss";
+
+.search {
+  max-width: 320px;
+  width: 100%;
+  margin-top: 20px;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: $textShadow;
+  }
+
+  .searchElement {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 34px;
+    background: #fff;
+    box-shadow: $boxShadow;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  input {
+    border: 0;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 8px;
+  }
+
+  .icon {
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    background: #aaa !important;
+    box-shadow: none !important;
+    opacity: 0.75;
+    transition: opacity 0.2s linear;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
