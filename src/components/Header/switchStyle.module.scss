@@ -1,0 +1,39 @@
+.toggleBtn {
+  width: 60px;
+  height: 28px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background: #2b6da6;
+
+  input {
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+
+  input:checked ~ .circle {
+    transform: translateX(-28px);
+  }
+
+  input:checked ~ .icon {
+    transform: translateX(28px);
+  }
+
+  .icon {
+    color: #fbde3c;
+    font-size: 20px;
+    margin-top: 6px;
+    transition: all 0.2s ease;
+  }
+  .circle {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
+}
