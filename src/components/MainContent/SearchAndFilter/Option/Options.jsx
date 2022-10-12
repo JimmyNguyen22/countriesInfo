@@ -13,10 +13,10 @@ import { ThemeContext } from "../../../ThemeContext/ThemeContext";
 const RegionsList = [
   { icon: GiWorld, value: "All" },
   { icon: FaGlobeAfrica, value: "Africa" },
-  { icon: FaGlobeAmericas, value: "America" },
+  { icon: FaGlobeAmericas, value: "Americas" },
   { icon: FaGlobeAsia, value: "Asia" },
   { icon: FaGlobeEurope, value: "Europe" },
-  { icon: GiEarthAsiaOceania, value: "Ocean" },
+  { icon: GiEarthAsiaOceania, value: "Oceania" },
 ];
 
 export default function Options({ isShowOptions }) {
